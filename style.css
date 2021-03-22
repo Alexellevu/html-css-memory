@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.contenitore{
+    background-color:cyan;
+    width: 90%;
+    height: 600px;
+    margin: auto;
+    
+}
+
+.title{
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    font-family:'Nerko One', cursive;
+    font-weight:bold;
+
+}
+
+.riga{
+    width: 70%;
+    height: 20%;
+    margin:auto;
+    margin-bottom: 10px;
+    
+    
+}
+
+
+.cover{
+    display: inline-block;
+    background-color: red;
+    display: inline-block;
+    height: 120px;
+    width: 120px;
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 10px;
+
+}
+
+.quadrato{
+    position: relative;
+    height: 120px;
+    width: 120px;
+   
+    border-radius: 10px;
+    background-color: white;
+    float: left;
+    margin-right: 20px;
+    
+}
+
+.clearfix:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.img{
+    display: block;
+   
+    height: 80px;
+    width: 80px;
+}
+
+.quadrato:hover .cover{
+display: none;
+}
+
+
+
