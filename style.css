@@ -101,3 +101,19 @@ footer h5{
 
 }
 
+.color_purple{
+    color:purple;
+}
+
+.color_orange{
+    color:orange;
+}
+
+.color_red{
+    color:red;
+    text-decoration: red;
+}
+
+.color_yellow{
+    color:yellow;
+}
