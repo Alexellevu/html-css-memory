@@ -7,7 +7,7 @@
 .contenitore{
     background-color:cyan;
     width: 90%;
-    height: 600px;
+    height: 590px;
     margin: auto;
     
 }
@@ -27,7 +27,7 @@
     width: 70%;
     height: 20%;
     
-    margin:0 auto;
+    margin:5px auto;
     padding-left: 150px;
     
 }
@@ -58,6 +58,8 @@
     background-color: white;
     float: left;
     margin-right: 20px;
+   
+    
     
 }
 
@@ -78,5 +80,24 @@
 display: none;
 }
 
+.quadrato > span{
+    font-family:'Nerko One', cursive;
 
+    position: relative;
+    left:25px;
+    top:5px;
+}
+
+.quadrato > img{
+    position: relative;
+    left: 25px;
+    top:5px;
+}
+
+footer h5{
+    font-family:'Nerko One', cursive;
+    text-align: center;
+    margin-top: 35px;
+
+}
 
